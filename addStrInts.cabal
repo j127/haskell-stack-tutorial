@@ -6,9 +6,9 @@ cabal-version: 1.12
 
 name:           addStrInts
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/j127/addStrInts#readme>
-homepage:       https://github.com/j127/addStrInts#readme
-bug-reports:    https://github.com/j127/addStrInts/issues
+description:    Please see the README on GitHub at <https://github.com/j127/haskell-stack-tutorial#readme>
+homepage:       https://github.com/j127/haskell-stack-tutorial#readme
+bug-reports:    https://github.com/j127/haskell-stack-tutorial/issues
 author:         j127
 maintainer:     hostelmarketing@gmail.com
 copyright:      BSD
@@ -21,11 +21,11 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/j127/addStrInts
+  location: https://github.com/j127/haskell-stack-tutorial
 
 library
   exposed-modules:
-      Lib
+      StrAdd
   other-modules:
       Paths_addStrInts
   hs-source-dirs:
