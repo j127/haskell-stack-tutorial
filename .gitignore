@@ -1,2 +1,5 @@
 .stack-work/
 *~
+*.bak
+.stack-work/
+dist-newstyle
