@@ -1,7 +1,7 @@
 module StrAdd where
 
-import Data.Char
+import           Data.Char
 
 isAllDigits :: String -> Bool
-isAllDigits ""  = False
+isAllDigits "" = False
 isAllDigits xs = all ((== True) . isDigit) xs

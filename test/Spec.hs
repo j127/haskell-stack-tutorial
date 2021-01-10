@@ -1,5 +1,5 @@
-import           StrAdd
 import           Data.Char
+import           StrAdd
 import           Test.QuickCheck
 
 prop_isAllDigit :: String -> Bool
